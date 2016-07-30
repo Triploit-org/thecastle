@@ -10,6 +10,7 @@
 #include "read.h"
 #include "save.h"
 #include "put.h"
+#include "move.h"
 
 using namespace std;
 
@@ -103,6 +104,34 @@ public:
       System.print("Der Artikel \"", cmd[1], "\" ist mir nicht bekannt!");
 
     }
+    else if (cmd[0] == "bewege" || cmd[0] == "schieb" || cmd[0] == "schiebe")
+    {
+      for (int i = 0; i<artikel.size();i++)
+      {
+        if (artikel[i] == cmd[1])
+        {
+          thmove(cmd[2]);
+          return;
+        }
+      }
+      System.print("Der Artikel \"", cmd[1], "\" ist mir nicht bekannt!");
+    }
+    else if (cmd[0] == "betritt")
+    {
+      for (int i = 0; i<artikel.size();i++)
+      {
+        if (artikel[i] == cmd[1])
+        {
+          bettr(cmd[2]);
+          return;
+        }
+      }
+      System.print("Der Artikel \"", cmd[1], "\" ist mir nicht bekannt!");
+    }
+    else if (cmd[0] == "")
+    {
+
+    }
     else if (cmd[0] == "")
     {
 
@@ -150,7 +179,7 @@ public:
     }
     else
     {
-        System.print("Das habe ich leider nicht verstanden.");
+        System.print("Pardon Monsieur?");
     }
   }
 

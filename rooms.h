@@ -267,6 +267,11 @@ int rinit()
   System.pos.rooms[51][2] = 51;
   System.pos.rooms[51][3] = 65;
 
+  System.pos.rooms[52][0] = 65;
+  System.pos.rooms[52][1] = 52;
+  System.pos.rooms[52][2] = 52;
+  System.pos.rooms[52][3] = 66;
+
   System.pos.rooms[54][0] = 50;
   System.pos.rooms[54][1] = 51;
   System.pos.rooms[54][2] = 65;

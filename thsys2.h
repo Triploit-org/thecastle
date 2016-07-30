@@ -54,6 +54,7 @@ public:
 		string Schluessel = "Schluessel";
 
 		string VBlume = "Blumen";
+		string Teppich = "Teppich";
 	} obj;
 
 	struct Player
@@ -67,6 +68,7 @@ public:
      bool run = false;
 		 bool stuer = false;
 		 bool ost11 = false;
+		 bool teppich = false;
 
      string tmp;
   } var;

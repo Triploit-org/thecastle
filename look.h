@@ -10,12 +10,14 @@ void look(int pos)
   {
     System.print("Du stehst in einem Wald.\nNoerdlich von dir steht ein Baum, an dem ein Zettel haengt.");
     print("Wenn du dich umschaust, kannst du noch\nein grosses Schloss im Osten erkennen.");
+
     print("");
   }
 
   else if (pos == 1)
   {
     print("Du stehst vor einem Baum.\nOestlich von dir siehst du ein grosses Schloss.");
+
     print("");
   }
 
@@ -34,6 +36,7 @@ void look(int pos)
   {
     print("Du stehst auf einer Lichtung.\nNoerdlich von dir befindet sich das Schloss.");
     print("Wenn du in den Osten schaust, kannst du\nerkennen das der Wald immer tiefer wird....");
+
     print("");
   }
 
@@ -41,6 +44,7 @@ void look(int pos)
   {
     print("Du befindest dich vor einem grossen Baum,\nwenn du nach Osten blickst, erkennst du etwas rundliches,\naus Stein.");
     print("Im Sueden erkennst du eine weitere Lichtung.");
+
     print("");
   }
 
@@ -49,12 +53,14 @@ void look(int pos)
     print("Du bist in einer steinigen Gegend angekommen.");
     print("Anstatt Gras, das auf dem Boden wachsen sollte,\nliegen dort nur Steine und Geroell.");
     print("Im Sueden erkennst du eine Leiter.");
+
     print("");
   }
 
   else if (pos == 6)
   {
     print("Du stehst vor einer Leiter,\ndiese Leiter, die du im Westen erkennen kannst,\nfuehrt ine in Loch.");
+
     print("");
   }
 
@@ -62,6 +68,7 @@ void look(int pos)
   {
     print("Du stehst nun in einer Hoehle, die nicht sehr gross ist,\nsie besteht aus einem Raum und in der Mitte kannst du \neine art Altar erkennen.");
     print("Dieser ist aus Sandstein, leicht roetlich und\nbeherbergt einen roten, leicht leuchtenden Stein.");
+
     print("");
   }
 
@@ -69,12 +76,14 @@ void look(int pos)
   {
     print("Du stehst auf einer Lichtung,\ndiese bietet im oestlichen einen Blick auf einen Fluss.");
     print("Wenn du nach Norden blickst, erkennst du etwas rundliches,\naus Stein.");
+
     print("");
   }
 
   else if (pos == 9)
   {
     print("Du stehst an einem Fluss, er ist nicht sehr gross.\nWenn du nach sueden schaust, erkennst du\neine kleine Huette.");
+
     print("");
   }
 
@@ -87,6 +96,7 @@ void look(int pos)
       print("In der Mitte sieht es so aus,");
       print("Als passe etwas rein, etwas unfoermig, steiniges.");
     }
+
     print("");
   }
 
@@ -94,24 +104,28 @@ void look(int pos)
   {
     print("Du stehst vor einem Art Riesengrab,\ndavor steht ein Stein.");
     print("Im Westen erkennst du die rundliche Steinfoermung.");
+
     print("");
   }
 
   else if (pos == 12)
   {
     print("Du befindest dich auf einer Lichtung,\nwieder zwischen Baeume.\nDiese Baeume verbergen ein kleines Huettchen im Osten.");
+
     print("");
   }
 
   else if (pos == 13)
   {
     print("Du stehst an einem Denkmal, dies hat eine Inschrift.\nIm Norden erkennst du den Fluss von dem du kamst.\nIm Sueden hingegen, erkennst du einen Friedhof.");
+
     print("");
   }
 
   else if (pos == 14)
   {
     print("Du stehst auf einem Friedhof, mit ein paar Graebern.\nDiese Graeber sind alle recht gross, wie fuer\nAdlige und ihresgleichen.\nIm Osten entdeckst du ein riesiges Grab");
+
     print("");
   }
 
@@ -119,12 +133,14 @@ void look(int pos)
   {
     print("Du stehst vor einem sehr grossen Grab.\nAuf diesem Grab steht ein Text.");
     print("Die Gegend scheint verlasse, nirgendwo ist\nein Mensch, als waere diese Welt, ohne Leben.");
+
     print("");
   }
 
   else if (pos == 16) // Haus
   {
     print("Du stehst in einem Haus. Das Haus\nwurde aus ein paar Holzdielen zusammengehaemmert.\nEs knirscht und knarrt, als wuerde es jeden moment einstuertzen. \nIm Westenerkennst du die Tuer.");
+
     print("");
   }
 
@@ -303,6 +319,16 @@ void look(int pos)
     print("");
   }
 
+  else if (pos == 52)
+  {
+    print("Du stehst auf einer Weide, hinter dir");
+    print("erstreckt sich eine Mauer.");
+    print("Im Norden erkennst du ...");
+    print("und suedlich ein ...");
+
+    print("");
+  }
+
   else if (pos == 54)
   {
     print("");
@@ -360,7 +386,17 @@ void look(int pos)
 
   else if (pos == 70) // Schloss
   {
-    print("");
+    print("Du stehst nun in einem großen Saal.");
+    print("Du siehst weder Tueren, noch Fenster oder andere");
+    print("Oeffnungen, aber trotzdem ist dieser Raum");
+    print("erleuchtet.");
+    print("Wenn du den Raum genau betrachtest, merkst du");
+    print("Das das leuchten unter dir, unter einem Teppich");
+    print("hervorkommt.");
+    if (!System.var.teppich)
+    {
+      print("Ob du den Teppich wegschieben kannst?");
+    }
   }
 
   else
