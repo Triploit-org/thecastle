@@ -122,13 +122,243 @@ void look(int pos)
     print("");
   }
 
-  else if (pos == 16)
+  else if (pos == 16) // Haus
   {
     print("Du stehst in einem Haus. Das Haus\nwurde aus ein paar Holzdielen zusammengehaemmert.\nEs knirscht und knarrt, als wuerde es jeden moment einstuertzen. \nIm Westenerkennst du die Tuer.");
     print("");
   }
 
-  else if (pos == 0)
+  else if (pos == 17)
+  {
+    print("");
+  }
+
+  else if (pos == 18)
+  {
+    print("");
+  }
+
+  else if (pos == 19)
+  {
+    print("");
+  }
+
+  else if (pos == 20)
+  {
+    print("");
+  }
+
+  else if (pos == 21)
+  {
+    print("");
+  }
+
+  else if (pos == 22)
+  {
+    print("");
+  }
+
+  else if (pos == 23)
+  {
+    print("");
+  }
+
+  else if (pos == 24)
+  {
+    print("");
+  }
+
+  else if (pos == 25)
+  {
+    print("");
+  }
+
+  else if (pos == 26)
+  {
+    print("");
+  }
+
+  else if (pos == 27)
+  {
+    print("");
+  }
+
+  else if (pos == 28)
+  {
+    print("");
+  }
+
+  else if (pos == 29)
+  {
+    print("");
+  }
+
+  else if (pos == 30)
+  {
+    print("");
+  }
+
+  else if (pos == 31)
+  {
+    print("");
+  }
+
+  else if (pos == 32)
+  {
+    print("");
+  }
+
+  else if (pos == 33)
+  {
+    print("");
+  }
+
+  else if (pos == 34)
+  {
+    print("");
+  }
+
+  else if (pos == 35)
+  {
+    print("");
+  }
+
+  else if (pos == 36)
+  {
+    print("");
+  }
+
+  else if (pos == 37)
+  {
+    print("");
+  }
+
+  else if (pos == 38)
+  {
+    print("");
+  }
+
+  else if (pos == 39)
+  {
+    print("");
+  }
+
+  else if (pos == 40)
+  {
+    print("");
+  }
+
+  else if (pos == 41)
+  {
+    print("");
+  }
+
+  else if (pos == 42)
+  {
+    print("");
+  }
+
+  else if (pos == 43)
+  {
+    print("");
+  }
+
+  else if (pos == 44)
+  {
+    print("");
+  }
+
+  else if (pos == 45)
+  {
+    print("");
+  }
+
+  else if (pos == 46)
+  {
+    print("");
+  }
+
+  else if (pos == 47)
+  {
+    print("");
+  }
+
+  else if (pos == 48)
+  {
+    print("");
+  }
+
+  else if (pos == 49)
+  {
+    print("");
+  }
+
+  else if (pos == 50)
+  {
+    print("");
+  }
+
+  else if (pos == 51)
+  {
+    print("");
+  }
+
+  else if (pos == 54)
+  {
+    print("");
+  }
+
+  else if (pos == 60)
+  {
+    print("");
+  }
+
+  else if (pos == 61)
+  {
+    print("");
+  }
+
+  else if (pos == 62)
+  {
+    print("");
+  }
+
+  else if (pos == 63)
+  {
+    print("");
+  }
+
+  else if (pos == 64)
+  {
+    print("");
+  }
+
+  else if (pos == 65)
+  {
+    print("");
+  }
+
+  else if (pos == 66)
+  {
+    print("");
+  }
+
+  else if (pos == 67)
+  {
+    print("");
+  }
+
+  else if (pos == 68)
+  {
+    print("");
+  }
+
+  else if (pos == 69)
+  {
+    print("");
+  }
+
+  else if (pos == 70) // Schloss
   {
     print("");
   }
