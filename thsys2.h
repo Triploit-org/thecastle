@@ -38,6 +38,7 @@ public:
 			int posSchluessel = 11;
 
 			int posVBlume = 15;
+			int posBuch = 16;
 
     } obj;
 
@@ -55,6 +56,7 @@ public:
 
 		string VBlume = "Blumen";
 		string Teppich = "Teppich";
+		string Buch = "Buch";
 	} obj;
 
 	struct Player
@@ -91,7 +93,7 @@ public:
 
     int num;
     srand (time(NULL));
-  	num = rand() % 30000 + 20000;
+  	num = rand() % 20000 + 10000;
     s+=s1+s2+s3+s4+s5+s6+s7;
 
     string::iterator i;
@@ -141,7 +143,7 @@ void print(string s, string s1="", string s2="", string s3="", string s4="", str
 
 	int num;
 	srand (time(NULL));
-	num = rand() % 30000 + 20000;
+	num = rand() % 20000 + 10000;
 	s+=s1+s2+s3+s4+s5+s6+s7;
 
 	string::iterator i;

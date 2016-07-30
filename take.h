@@ -38,6 +38,10 @@ int take(string obj)
     {
       System.pos.obj.posVBlume = System.pos.aktPos;
     }
+    else if (System.obj.Buch == System.player.Item)
+    {
+      System.pos.obj.posBuch = System.pos.aktPos;
+    }
 
     if (System.pos.obj.posBZettel == System.pos.aktPos && obj == System.obj.BZettel)
     {
@@ -80,6 +84,12 @@ int take(string obj)
       taked();
       System.pos.obj.posVBlume = System.pos.inHand;
       System.player.Item = System.obj.VBlume;
+    }
+    else if (System.pos.obj.posBuch == System.pos.aktPos && obj == System.obj.Buch)
+    {
+      taked();
+      System.pos.obj.posBuch = System.pos.inHand;
+      System.player.Item = System.obj.Buch;
     }
     else
     {

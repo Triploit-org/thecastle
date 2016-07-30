@@ -115,7 +115,7 @@ void look(int pos)
     print("");
   }
 
-  else if (pos == 13)
+  else if (pos == 13) // Denkmal
   {
     print("Du stehst an einem Denkmal, dies hat eine Inschrift.\nIm Norden erkennst du den Fluss von dem du kamst.\nIm Sueden hingegen, erkennst du einen Friedhof.");
 
@@ -441,6 +441,11 @@ void look(int pos)
   if (System.pos.obj.posVBlume == System.pos.aktPos)
   {
      print(" Du kannst \"Verwelkte-Blumen\" erkennen.");
+  }
+
+  if (System.pos.obj.posBuch == System.pos.aktPos)
+  {
+    print(" Auf dem Boden liegt ein halb verschimmeltes Buch.");
   }
 
   aus(pos);

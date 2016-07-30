@@ -2,10 +2,11 @@
 #include "take.h"
 
 void zettel();
+void buch();
 
 int read(string obj)
 {
-  if (obj == "Zettel")
+  if (obj == System.obj.BZettel)
   {
     if (System.pos.obj.posBZettel == System.pos.inHand)
     {
@@ -13,9 +14,23 @@ int read(string obj)
     }
     else
     {
-      if (take("Zettel") == 0)
+      if (take(System.obj.BZettel) == 0)
       {
         zettel();
+      }
+    }
+  }
+  else if (obj == System.obj.Buch)
+  {
+    if (System.pos.obj.posBuch == System.pos.inHand)
+    {
+      buch();
+    }
+    else
+    {
+      if (take(System.obj.Buch) == 0)
+      {
+        buch();
       }
     }
   }
@@ -55,4 +70,22 @@ void zettel()
 {
   print("  Willkommen zu The Castle!");
   print("  Dies ist der Nachfolger des abgebrochenen Spiels\n  \"The House\"! Es ist wieder zurueck!\nDiesmal mit vielen Raeumen und neuen Funktionen! Und nun...\n\n  Viel Spass und Erfolg, Survari");
+}
+
+void buch()
+{
+  print("Das Buch ist schon Halb zerfallen, es lässt");
+  print("sich nur noch wenig davon lesen...");
+  print(" Annikas Tagebuch");
+  print("");
+  print("18. Brachet 1220");
+  print("");
+  print("Heute ist ein wundervoller Tag um auf dem Feld des Koenigs zu arbeiten.");
+  print("Mein Vater meinte: \"Wenn du uns immer\"");
+  print("");
+  print("");
+  print("");
+  print("");
+  print("");
+  print("... mehr kannst du nicht entschluesseln.");
 }

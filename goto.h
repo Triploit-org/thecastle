@@ -34,7 +34,7 @@ void bettr(string obj)
   }
   else
   {
-    print("Was willst du da bitteschoen betreten?")
+    print("Was willst du da bitteschoen betreten?");
   }
 }
 
